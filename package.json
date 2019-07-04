@@ -5,10 +5,16 @@
   "author": "eunsukimme <eunsu.dev@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.0"
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "dotenv": "^8.0.0",
+    "graphql-tools": "^4.0.5",
+    "graphql-yoga": "^1.18.0",
+    "merge-graphql-schemas": "^1.5.8",
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
     "nodemon": "^1.19.1"
   },
   "scripts": {
