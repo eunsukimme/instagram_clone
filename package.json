@@ -1,0 +1,17 @@
+{
+  "name": "instagram_clone",
+  "version": "1.0.0",
+  "repository": "https://github.com/eunsukimme/instagram_clone.git",
+  "author": "eunsukimme <eunsu.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
